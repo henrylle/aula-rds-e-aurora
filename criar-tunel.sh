@@ -11,7 +11,7 @@ REMOTE_PORT=5432
 echo "Escolha o tipo de host:"
 echo "1) RDS"
 echo "2) Aurora Single"
-echo "3) Aurora Cluster"
+echo "3) Aurora Multi-AZ"
 read -p "Opção: " opcao
 
 case $opcao in
